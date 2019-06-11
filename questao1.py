@@ -86,7 +86,7 @@ def a(data: np.array, plot=False) -> np.array:
     return cov_matrix
 
 
-def b(data: np.array, plot=False) -> np.array:
+def b(data: np.array, plot=False) -> (np.array, np.array):
     cov_matrix = a(data)
 
     eigenvalues, eigenvectors = np.linalg.eig(cov_matrix)
@@ -99,11 +99,11 @@ def b(data: np.array, plot=False) -> np.array:
     if plot:
         plot_eigenvectors(eigenvectors, eigenvalues)
 
-    return eigenvectors
+    return eigenvectors, eigenvalues
 
 
 def c(X: np.array, plot=False):
-    eigenvectors = b(X)
+    eigenvectors, _ = b(X)
 
     e1 = eigenvectors[:, 0] / np.linalg.norm(eigenvectors[:, 0])
 
@@ -123,10 +123,17 @@ def c(X: np.array, plot=False):
         plot_PCA(Y)
 
 
+def d(data: np.array):
+    _, eigenvalues = b(data)
+
+    print(np.round(eigenvalues / np.sum(eigenvalues), 3))
+
+
 if __name__ == '__main__':
     file_name = "datasets/soilDataset.csv"
     dataset = np.loadtxt(file_name, delimiter=",")
-    # descriptive_statistics(dataset)
+    descriptive_statistics(dataset)
     a(dataset)
-    b(dataset, True)
+    b(dataset)
     c(dataset)
+    d(dataset)

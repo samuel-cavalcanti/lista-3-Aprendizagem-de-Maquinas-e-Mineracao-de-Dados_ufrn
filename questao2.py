@@ -9,9 +9,7 @@ def a(data: np.array, n_centroids: int):
 
     k_means.fit(data)
 
-    print(k_means.cluster_centers_)
-
-    plot_k_means(k_means, data)
+    plot_k_means(k_means, data, "K-means A")
 
 
 def b(data: np.array, n_centroids: int):
@@ -27,7 +25,7 @@ def b(data: np.array, n_centroids: int):
 
     k_means.fit(data)
 
-    plot_k_means(k_means, data)
+    plot_k_means(k_means, data, "K-means B")
 
 
 def c(data: np.array, n_centroids: int):
@@ -43,10 +41,10 @@ def c(data: np.array, n_centroids: int):
 
     k_means.fit(data)
 
-    plot_k_means(k_means, data)
+    plot_k_means(k_means, data, "K-means C")
 
 
-def plot_k_means(k_means: KMeans, data: np.array):
+def plot_k_means(k_means: KMeans, data: np.array, title: str):
     colors = ["blue", "orange", "green"]
     pyplot.figure("K-Means")
 
@@ -60,6 +58,8 @@ def plot_k_means(k_means: KMeans, data: np.array):
         ax.scatter(centroid[0], centroid[1], centroid[2], "O",
                    s=100, color=colors[i])
 
+
+    pyplot.title(title)
     pyplot.show()
 
 

@@ -1,128 +1,128 @@
 {
-    "ReinoUnido": {
+    "United Kingdom": {
         "ExpectativaVida": 0.88,
-        "Educa\u00e7\u00e3o": 0.99,
+        "Edu": 0.99,
         "PIB": 0.91,
-        "EstabilidadePol\u00edtica": 1.1
+        "Estabilidade": 1.1
     },
-    "Austr\u00e1lia": {
+    "Australia": {
         "ExpectativaVida": 0.9,
-        "Educa\u00e7\u00e3o": 0.99,
+        "Edu": 0.99,
         "PIB": 0.93,
-        "EstabilidadePol\u00edtica": 1.26
+        "Estabilidade": 1.26
     },
-    "Canad\u00e1": {
+    "Canada": {
         "ExpectativaVida": 0.9,
-        "Educa\u00e7\u00e3o": 0.98,
+        "Edu": 0.98,
         "PIB": 0.94,
-        "EstabilidadePol\u00edtica": 1.24
+        "Estabilidade": 1.24
     },
-    "EstadosUnidos": {
+    "United States": {
         "ExpectativaVida": 0.87,
-        "Educa\u00e7\u00e3o": 0.98,
+        "Edu": 0.98,
         "PIB": 0.97,
-        "EstabilidadePol\u00edtica": 1.18
+        "Estabilidade": 1.18
     },
-    "Jap\u00e3o": {
+    "Japan": {
         "ExpectativaVida": 0.93,
-        "Educa\u00e7\u00e3o": 0.93,
+        "Edu": 0.93,
         "PIB": 0.93,
-        "EstabilidadePol\u00edtica": 1.2
+        "Estabilidade": 1.2
     },
-    "Fran\u00e7a": {
+    "France": {
         "ExpectativaVida": 0.89,
-        "Educa\u00e7\u00e3o": 0.97,
+        "Edu": 0.97,
         "PIB": 0.92,
-        "EstabilidadePol\u00edtica": 1.04
+        "Estabilidade": 1.04
     },
-    "Cingapura": {
+    "Singapore": {
         "ExpectativaVida": 0.88,
-        "Educa\u00e7\u00e3o": 0.87,
+        "Edu": 0.87,
         "PIB": 0.91,
-        "EstabilidadePol\u00edtica": 1.41
+        "Estabilidade": 1.41
     },
     "Argentina": {
         "ExpectativaVida": 0.81,
-        "Educa\u00e7\u00e3o": 0.92,
+        "Edu": 0.92,
         "PIB": 0.8,
-        "EstabilidadePol\u00edtica": 0.55
+        "Estabilidade": 0.55
     },
-    "Uruguai": {
+    "Uruguay": {
         "ExpectativaVida": 0.82,
-        "Educa\u00e7\u00e3o": 0.92,
+        "Edu": 0.92,
         "PIB": 0.75,
-        "EstabilidadePol\u00edtica": 1.05
+        "Estabilidade": 1.05
     },
     "Cuba": {
         "ExpectativaVida": 0.85,
-        "Educa\u00e7\u00e3o": 0.9,
+        "Edu": 0.9,
         "PIB": 0.64,
-        "EstabilidadePol\u00edtica": 0.07
+        "Estabilidade": 0.07
     },
-    "Col\u00f4mbia": {
+    "Colombia": {
         "ExpectativaVida": 0.77,
-        "Educa\u00e7\u00e3o": 0.85,
+        "Edu": 0.85,
         "PIB": 0.69,
-        "EstabilidadePol\u00edtica": -1.36
+        "Estabilidade": -1.36
     },
-    "Brasil": {
+    "Brazil": {
         "ExpectativaVida": 0.71,
-        "Educa\u00e7\u00e3o": 0.83,
+        "Edu": 0.83,
         "PIB": 0.72,
-        "EstabilidadePol\u00edtica": 0.47
+        "Estabilidade": 0.47
     },
-    "Paraguai": {
+    "Paraguay": {
         "ExpectativaVida": 0.75,
-        "Educa\u00e7\u00e3o": 0.83,
+        "Edu": 0.83,
         "PIB": 0.63,
-        "EstabilidadePol\u00edtica": -0.87
+        "Estabilidade": -0.87
     },
-    "Egito": {
+    "Egypt": {
         "ExpectativaVida": 0.7,
-        "Educa\u00e7\u00e3o": 0.62,
+        "Edu": 0.62,
         "PIB": 0.6,
-        "EstabilidadePol\u00edtica": 0.21
+        "Estabilidade": 0.21
     },
-    "Nig\u00e9ria": {
+    "Nigeria": {
         "ExpectativaVida": 0.44,
-        "Educa\u00e7\u00e3o": 0.58,
+        "Edu": 0.58,
         "PIB": 0.37,
-        "EstabilidadePol\u00edtica": -1.36
+        "Estabilidade": -1.36
     },
     "Senegal": {
         "ExpectativaVida": 0.47,
-        "Educa\u00e7\u00e3o": 0.37,
+        "Edu": 0.37,
         "PIB": 0.45,
-        "EstabilidadePol\u00edtica": -0.68
+        "Estabilidade": -0.68
     },
-    "Serra Leoa": {
+    "Sierra Leone": {
         "ExpectativaVida": 0.23,
-        "Educa\u00e7\u00e3o": 0.33,
+        "Edu": 0.33,
         "PIB": 0.27,
-        "EstabilidadePol\u00edtica": -1.26
+        "Estabilidade": -1.26
     },
     "Angola": {
         "ExpectativaVida": 0.34,
-        "Educa\u00e7\u00e3o": 0.36,
+        "Edu": 0.36,
         "PIB": 0.51,
-        "EstabilidadePol\u00edtica": -1.98
+        "Estabilidade": -1.98
     },
-    "Eti\u00f3pia": {
+    "Ethiopia": {
         "ExpectativaVida": 0.31,
-        "Educa\u00e7\u00e3o": 0.35,
+        "Edu": 0.35,
         "PIB": 0.32,
-        "EstabilidadePol\u00edtica": -0.55
+        "Estabilidade": -0.55
     },
-    "Mo\u00e7ambique": {
+    "Mozambique": {
         "ExpectativaVida": 0.24,
-        "Educa\u00e7\u00e3o": 0.37,
+        "Edu": 0.37,
         "PIB": 0.36,
-        "EstabilidadePol\u00edtica": 0.2
+        "Estabilidade": 0.2
     },
     "China": {
         "ExpectativaVida": 0.76,
-        "Educa\u00e7\u00e3o": 0.8,
+        "Edu": 0.8,
         "PIB": 0.61,
-        "EstabilidadePol\u00edtica": 0.39
+        "Estabilidade": 0.39
     }
 }

@@ -1,7 +1,9 @@
 import numpy as np
 from sklearn.cluster import KMeans
 import json
-
+import plotly.plotly as py
+import pandas as pd
+import plotly.graph_objs as go
 
 def json_to_array(json_file: dict) -> np.array:
     final_array = list()

@@ -5,6 +5,7 @@ import plotly.plotly as py
 import pandas as pd
 import plotly.graph_objs as go
 
+
 def json_to_array(json_file: dict) -> np.array:
     final_array = list()
 
@@ -19,6 +20,17 @@ def json_to_array(json_file: dict) -> np.array:
     return np.array(final_array)
 
 
+def execute_kmeans(n_clusters: int, data: np.array, labels: np.array):
+    k_means = KMeans(n_clusters=n_clusters)
+
+    k_means.fit(data)
+
+    for i in range(n_clusters):
+        print("Cluster {}".format(i))
+        print(labels[k_means.labels_ == i])
+        print()
+
+
 if __name__ == '__main__':
     data_path = "datasets/onu2002.json"
     file = json.load(open(data_path))
@@ -27,18 +39,4 @@ if __name__ == '__main__':
 
     labels = np.array([country for country in file])
 
-    k_means = KMeans(n_clusters=3)
-
-    k_means.fit(data)
-
-    print("cluster 0")
-
-    print(labels[k_means.labels_ == 0])
-    print()
-
-    print("cluster 1")
-    print(labels[k_means.labels_ == 1])
-
-    print()
-    print("cluster 2")
-    print(labels[k_means.labels_ == 2])
+    execute_kmeans(4, data, labels)

@@ -116,18 +116,32 @@ desenvolvimento de países
 
 
 ## Questão 4  
-Considerando 3 clusters. O K-means agrupa os paises da seguinte forma:  
+
+### Considerando 3 clusters
 
 ##### primeiro cluster  
 Argentina, Cuba, Brasil, Egito, Moçambique, China  
 
 ##### segundo cluster  
-Colombia , paraguai, Nigeria, Senegal, Sierra Leone, Angola
+Colombia , paraguai, Nigeria, Senegal, Sierra Leone, Angola, Etiópia
 
 ##### terceiro cluster
 Reino Unido, Autralia, Canada, Estados Unidos, Japão, Fança ,Singapura , Uruguai
 
 
+### Considerando 4 clusters
+
+##### primeiro cluster  
+Argentina, Cuba, Brasil, Egito, Moçambique, China  
+
+##### segundo cluster  
+Colombia, Nigeria, Sierra Leone, Angola
+
+##### terceiro cluster
+Reino Unido, Autralia, Canada, Estados Unidos, Japão, Fança ,Singapura , Uruguai
+
+##### quarto cluster  
+Paraguai, Senegal, Etiópia
 
 
 ## Questão 5

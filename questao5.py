@@ -41,7 +41,7 @@ def make_labels_map() -> np.array:
 def train_som(data: np.array, m_din: int, n_din: int, features_size: int) -> MiniSom:
     som = MiniSom(m_din, n_din, features_size)
 
-    som.train_random(data, 1000, verbose=True)
+    som.train_random(data, 50000, verbose=True)
 
     return som
 

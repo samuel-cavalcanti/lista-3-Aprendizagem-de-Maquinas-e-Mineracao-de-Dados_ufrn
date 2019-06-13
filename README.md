@@ -166,3 +166,22 @@ espaço de dimensão 2, constituído pela grade de neurônios
 ![Activations_frequencies](graficos/Activations_frequencies.png)  
 ![Class_pies](graficos/Class_pies.png)  
 
+## Trabalho  
+
+Escolha uma dos trabalhos abaixo:  
+
+1) Pesquise e apresente um trabalho sobre Análise de Componentes Independentes (ICA)   
+ 
+2) Pesquise e apresente um estudo sobre BIG DATA  
+
+
+### ICA  
+O trabalho escolhido foi sobre o ICA. Mais precisamente sobre o fastICA.  
+Nesse exemplo o [scikit-learn](https://scikit-learn.org/stable/auto_examples/decomposition/plot_ica_blind_source_separation.html#sphx-glr-auto-examples-decomposition-plot-ica-blind-source-separation-py)
+mostra o funcionamento do Fast ICA em comparação com o PCA para a separação de 3 sinais combinados. Nesse exemplo podemos observar que PCA não consegue separar as 3 fontes por causa da não-gaussianidade da amostra. No Entanto o Fast ICA conseguiu.  
+
+![Fast ICA](graficos/Ica.png)  
+
+
+[artigos que não entendi](https://medium.com/analytics-vidhya/fast-ica-vs-reconstruction-ica-vs-orthonormal-ica-in-tensorflow-matlab-manual-back-prop-in-tf-8b3212924ad0)
+[artigos que mais ou menos](https://subokita.com/2014/03/06/using-scikits-ica-to-separate-audio-sources/)

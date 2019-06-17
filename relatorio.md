@@ -75,7 +75,7 @@ X1 > X2 > X4 > X5
 ## Questão 2  
 
 Considere o dados apresentados na [tabela](datasets/table.csv). Fazendo uso do algoritmo K-means ,
-obtenha os centroides dos  
+obtenha os centroides dos
 clusters. No processo de inicialização considere os itens (a) e (b) abaixo:
 
 a) Considere que existam três clusters e a inicialização dos centros seja aleatória  
@@ -98,19 +98,19 @@ alcançar a convergência
 
 ![K-Means-c](graficos/K-Means-c.png)  
 
-O algoritmo K-means é muito sensível em relação a posição inicial dos centroides por isso deve-se  
-executar o algoritmo mais de uma fez e escolher a melhor configuração.  
-No caso da letra A, por padrão a biblioteca sklearn executa o K-means 10 vezes e escolhe a melhor  
-configuração. Também pro padrão o número maxímo de iterações é 300. algo que não foi alterado  
-nos testes.  
+O algoritmo K-means é muito sensível em relação a posição inicial dos centroides por isso deve-se
+executar o algoritmo mais de uma fez e escolher a melhor configuração.
+No caso da letra A, por padrão a biblioteca sklearn executa o K-means 10 vezes e escolhe a melhor
+configuração. Também pro padrão o número maxímo de iterações é 300. algo que não foi alterado
+nos testes.
 
 ## Questão 3  
-Considere o processo de identificação de aglomerados (“clusters”) com base em uma técnica hierárquica  
-aglomerativa. Neste problema considere o método de Ward resumido nas equações abaixo. Considere também  
-dois critérios para parada do processo aglomerativo no dendograma e identificação do número de aglomerados.  
-O critério R² e o critério o Pseudo T². Como dados para o problema considere a [tabela](datasets/onu2002.json) de índices de  
+Considere o processo de identificação de aglomerados (“clusters”) com base em uma técnica hierárquica
+aglomerativa. Neste problema considere o método de Ward resumido nas equações abaixo. Considere também
+dois critérios para parada do processo aglomerativo no dendograma e identificação do número de aglomerados.
+O critério R² e o critério o Pseudo T². Como dados para o problema considere a [tabela](datasets/onu2002.json) de índices de
 desenvolvimento de países  
-(Fonte ONU- 2002, Livro – Análise de dados através de métodos de estatística multivariada – Sueli A. Mingoti)  
+(Fonte ONU- 2002, Livro – Análise de dados através de métodos de estatística multivariada – Sueli A. Mingoti)
 
 ![dendrogram](graficos/dendrogram.png)  
 
@@ -146,32 +146,22 @@ Paraguai, Senegal, Etiópia
 
 ## Questão 5
 A propriedade de ordenação topológica do algoritmo SOM pode ser usada para formar
-uma representação  
-bidimensional abstrata de um espaço de entrada de alta dimensionalidade. Para investigar esta forma de  
-representação, considere uma grade bidimensional consistindo de 10x10 neurônios que é treinada tendo como  
-entrada os dados oriundos de quatro distribuições gaussianas, C 1 , C 2 , C 3 , e C 4 , em um espaço de entrada de  
-dimensionalidade igual a oito, isto é x = (x_1,x_2,...,x_8). Todas as nuvens têm variâncias unitária, mas centros ou  
+uma representação
+bidimensional abstrata de um espaço de entrada de alta dimensionalidade. Para investigar esta forma de
+representação, considere uma grade bidimensional consistindo de 10x10 neurônios que é treinada tendo como
+entrada os dados oriundos de quatro distribuições gaussianas, C 1 , C 2 , C 3 , e C 4 , em um espaço de entrada de
+dimensionalidade igual a oito, isto é x = (x_1,x_2,...,x_8). Todas as nuvens têm variâncias unitária, mas centros ou
 vetores média diferentes dados por:
 m_1 = ( 0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 )  
 m 2 = ( 4 , 0 , 0 , 0 , 0 , 0 , 0 , 0 )  
 m 3 = ( 0 , 0 , 0 , 4 , 0 , 0 , 0 , 0 )  
 m 4 = ( 0 , 0 , 0 , 0 , 0 , 0 , 0 , 4 ) 
  
-Calcule o mapa produzido pelo algoritmo SOM, com cada neurônio do mapa sendo rotulado com a classe particular  
-mais representada pelos pontos de entrada em sua volta. O objetivo é visualizar os dados de dimensão 8 em um  
-espaço de dimensão 2, constituído pela grade de neurônios  
+Calcule o mapa produzido pelo algoritmo SOM, com cada neurônio do mapa sendo rotulado com a classe particular
+mais representada pelos pontos de entrada em sua volta. O objetivo é visualizar os dados de dimensão 8 em um
+espaço de dimensão 2, constituído pela grade de neurônios
 
 
 ![U_matrix](graficos/U_matrix.png)  
 ![Activations_frequencies](graficos/Activations_frequencies.png)  
 ![Class_pies](graficos/Class_pies.png)  
-
-## Trabalho  
-
-Escolha uma dos trabalhos abaixo:  
-
-1) Pesquise e apresente um trabalho sobre Análise de Componentes Independentes (ICA)   
- 
-2) Pesquise e apresente um estudo sobre BIG DATA  
-
-O trabalho escolhido foi o ICA  e o seu relatório pode ser encontrado nesse link: [ICA](ICA/build/relatorioICA.pdf)
